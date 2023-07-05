@@ -1,0 +1,91 @@
+html, body {
+    height: 100%; 
+}
+
+
+body {
+    background-color:lightgreen;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    background-color: limegreen;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    flex-grow: 100;
+}
+header ul li {
+    margin-right: 30px;
+}
+header input {
+    height: 30px;
+    margin-right: 30px;
+}
+.info {
+    display: flex;
+    background-color: beige;
+    margin: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+}
+.producto {
+    width: 600px;
+    margin-right: 50px;
+}
+.grande {
+    margin-bottom: 60px;
+}
+.logo{
+    height: 80px;
+}
+footer  {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.image {
+    width: 100px;
+    margin-right: 20px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+footer .logo {
+    margin:0 auto
+}
+.texto3 {
+    display: flex;
+    align-items: center;
+}
+footer ul li{ 
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px) {
+body {
+    background-color: green;
+
+}
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.comida {
+width: 25%;   
+text-align: center;
+}
